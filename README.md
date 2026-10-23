@@ -1,6 +1,6 @@
 # Markov Guitars
 
-A SuperCollider patch for composing with texture. Four voices improvise melodies with **Markov chains** learned from MIDI files (Für Elise, a C major scale, or your own) and play them on sampled guitar. As the composer, you shape the result: register, density, scale, dynamics and a rack of effects. Then you write **cues**, blocks of changes that fire together.
+A SuperCollider patch for composing with texture. Four voices improvise melodies with **Markov chains** learned from MIDI files (Für Elise, a C major scale, or your own) and play them on sampled guitar. Shape the texture with register, density, scale, dynamics and a rack of effects, and write **cues**: blocks of changes that fire together.
 
 ```supercollider
 ~cue.("the floor tilts", {
@@ -103,7 +103,7 @@ If GitHub says the PR **can't be merged automatically**, we both changed the sam
 |---|---|
 | `patch.scd` | **Start here.** The main block plus every control, effect and cue, with explanations |
 | `fur_elise.mid`, `scale.mid` | Melodies the Markov chains learn from. Add your own `.mid` files here |
-| `dependencies/texture.scd` | The voices and composer's controls (`~range`, `~density`, `~fx`, `~cue`, ...) |
+| `dependencies/texture.scd` | The voices and their controls (`~range`, `~density`, `~fx`, `~cue`, ...) |
 | `dependencies/markov.scd` | Reads MIDI files and builds and plays the Markov chains |
 | `dependencies/pattern-fx.scd` | The effects (filters, drive, ring mod, decimator, delay, granulator, reverb) |
 | `dependencies/glide.scd` | Gradual changes and LFOs for the voices' settings |

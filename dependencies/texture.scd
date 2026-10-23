@@ -1,4 +1,4 @@
-// Composer's toolbox: voices (Markov-chain melodies on the guitar sampler), the controls that
+// Toolbox: voices (Markov-chain melodies on the guitar sampler), the controls that
 // shape them, effects, and cues. Loaded by patch.scd after markov.scd, glide.scd and
 // pattern-fx.scd; patch.scd explains how to use it.
 //
