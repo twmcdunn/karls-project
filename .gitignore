@@ -1,0 +1,18 @@
+# Audio: samples are downloaded from the twmcdunn/samples release, never committed
+*.wav
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.zip
+
+# Generated / local folders
+samples/
+build/
+
+# macOS and local tool settings
+.DS_Store
+._*
+.claude/settings.local.json
